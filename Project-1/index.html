@@ -7,36 +7,59 @@
     <link rel="shortcut icon" href="search.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <style>
-        *{
-            background-color: black;
-        }
+        article{
+            background-color: tomato;
+            opacity: 0.6;
+            }
     </style>
 </head>
 <body>
-    <!-- <header>
-        <nav class="nav-bar">
-            <ul>Home</ul>
-            <ul>About</ul>
-            <ul>Contact</ul>
-        </nav>
-    
-    </header> -->
+    <header>
         <h1>
-            <p style="color: bisque;">Welcome to my <del>cooking session </del> Family!!</p>
+           
+            Welcome to my <del>cooking session </del> Family!!
         </h1>
+    </header>
+        
         <article>
             Balancing work and learning to cook at home can be overwhelming for newcomers. The time and effort required to plan, prepare, and cook meals, especially after a long workday, often feel exhausting. Juggling recipes, kitchen tools, and dietary needs adds pressure, making it easy to feel discouraged. However, with patience, meal prep strategies, and simple recipes, it becomes more manageable and rewarding over time.
         </article>
 
-        <form action="index.html">
-            <fieldset>
-              <legend style="color: aqua;">Subscribe to the Newsletter</legend>
+        <div class="grid-container">
+            <div class="grid-item">
+                <img src="food1.png" alt="Delicious Dish to try">
+                <p>Enjoy making food at home</p>
+            </div>
+            <div class="grid-item">
+                <img src="food2.jpg" alt="Delicious Dishes to try">
+                <p>Cooking will make you happy</p>
+            </div>
+            <div class="grid-item">
+                <img src="food3.jfif" alt="Delicious Dish to try">
+                <p>It not only keeps you healthy but helps you learn a skill</p>
+            </div>
+        </div>
+
+        <section>
+            <p>Some videos to begin cooking!!</p>
+          
+            <video controls src="1489-147827940_tiny.mp4" style="margin: 50px;"></video>
+            <video controls src="128186-740906939_tiny.mp4" style="margin: 20px;"></video>
+
+        </section>
+
+    
+
+       <form action="index.html">
+            <fieldset id="newsletter">
+              <legend style="border: 5px solid black ; background-color:white; font-weight: bold;">Subscribe to the Newsletter</legend>
               <input type="email" name="email" placeholder="enter your mail">
-              <button style="color: aquamarine;">This is just a basic newsletter</button>
+              <button style="color: black;">This is just a basic newsletter</button>
             </fieldset>
           </form>
+        
 
+    <footer>Made by Archa</footer>
 
-    <footer>This is my Website</footer>
 </body>
 </html>
